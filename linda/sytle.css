@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  text-align: center;
+  background-image: url(munachi.png);
+}
+
+* body header {
+  color: aliceblue;
+}
+
+* body section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  background-color: white;
+  margin: 10%;
+  width: 80%;
+  color: firebrick;
+  text-align: center;
+}
+
+* body section div {
+  width: 200px;
+  margin: 20px;
+}
+
+* body section div h3 {
+  width: 270px;
+}
+
+* body section div img {
+  height: 300px;
+  width: 300px;
+}
+
+* body section div p {
+  width: 270px;
+}
+/*# sourceMappingURL=sytle.css.map */

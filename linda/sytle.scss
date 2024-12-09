@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    body{
+        text-align: center;
+        background-image: url(munachi.png);    
+        header{
+            color: aliceblue;
+        }
+        
+        section{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: white;
+            margin: 10%;
+            width: 80%;
+            color: firebrick;
+            text-align: center;
+            div{
+                width: 300px;
+                margin: 20px;
+
+                h3{
+                    width: 400px;
+                }
+                
+                img{
+                    height: 300px;
+                    width: 300px;
+                }
+                p{
+                    width: 270px;
+                }
+            }
+        }
+    
+    }
+}
+
